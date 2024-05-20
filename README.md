@@ -1,3 +1,65 @@
+# About the Test
+
+## How to install
+
+Execute the follow commands:
+
+-   Rename the `.env.example` to `.env`
+-   Configure your DB connection
+-   Run `composer install`
+-   Run `php artisan migrate`
+-   Run `php artisan serve`
+
+If you want, you can use the file `Insomnia_2024-05-20.json` to import into Insomnia and test all the endpoints.
+
+## Assessment Test - Backend
+
+This task aims to assess the candidates' knowledge and go through some areas of features of the framework that we use in our projects. Test implementation is free as long as the essential objectives are met.
+
+The task must be referenced in its own repository and delivered through GitHub public repo.
+
+The proposed exercise is to create a simple API interface, with a CRUD for an object model with the characteristics below:
+
+| Authentication   | Login with password                                           |
+| ---------------- | ------------------------------------------------------------- |
+| CRUDS            | Book Registry                                                 |
+|                  | GET, POST, PUT and DELETE                                     |
+|                  |                                                               |
+|                  | Store Registry                                                |
+|                  | GET, POST, PUT and DELETE                                     |
+|                  |                                                               |
+|                  | Book and Store Relationship                                   |
+| ---------------- | ------------------------------------------------------------- |
+| Fields           | Book                                                          |
+|                  | Name= required                                                |
+|                  | ISBN = only numbers                                           |
+|                  | Value = decimal                                               |
+|                  |                                                               |
+|                  | Store                                                         |
+|                  | Name                                                          |
+|                  | Address                                                       |
+|                  | Active                                                        |
+|                  |                                                               |
+|                  | Book Store – relationship multiple books to multiple stores   |
+
+## Requirements:
+
+-   CRUD must be in JSON
+-   User Login and Logout
+
+## Some suggestions:
+
+-   Use the framework's basic User model for authentication
+-   Use DDD (Domain Driven Design)
+
+## Tools:
+
+-   Laravel 8+
+-   Mysql/Sqlite
+-   PHP 8
+
+# About Laravel
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -11,13 +73,13 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-   [Simple, fast routing engine](https://laravel.com/docs/routing).
+-   [Powerful dependency injection container](https://laravel.com/docs/container).
+-   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+-   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+-   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+-   [Robust background job processing](https://laravel.com/docs/queues).
+-   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
@@ -35,19 +97,19 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+-   **[Vehikl](https://vehikl.com/)**
+-   **[Tighten Co.](https://tighten.co)**
+-   **[WebReinvent](https://webreinvent.com/)**
+-   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+-   **[64 Robots](https://64robots.com)**
+-   **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+-   **[Cyber-Duck](https://cyber-duck.co.uk)**
+-   **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+-   **[Jump24](https://jump24.co.uk)**
+-   **[Redberry](https://redberry.international/laravel/)**
+-   **[Active Logic](https://activelogic.com)**
+-   **[byte5](https://byte5.de)**
+-   **[OP.GG](https://op.gg)**
 
 ## Contributing
 
